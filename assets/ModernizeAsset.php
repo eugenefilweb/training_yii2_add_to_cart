@@ -17,17 +17,15 @@ use yii\web\AssetBundle;
  */
 class ModernizeAsset extends AssetBundle
 {
-    public $sourcePath = '@webroot/modernize/assets ';
+    public $sourcePath = '@webroot/modernize/assets';
     // public $baseUrl = '@web';
     public $css = [
-        // 'css/site.css',
         'css/styles.css',
         'css/styles.min.css',
-        'css/*.css'
     ];
     public $js = [
-        'js/*.js',
-        'libs/*.js'
+        // 'js/*.js',
+        // 'libs/*.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',
